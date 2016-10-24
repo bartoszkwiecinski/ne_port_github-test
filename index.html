@@ -30,59 +30,42 @@
 <h1>Try some Background</h1>
 </div>
 </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4"><h1>hello bootstrap</h1></div>
-            <div class="col-md-4"><h1>hello world</h1></div>
-            <div class="col-md-4"><h1>hello synthesizers</h1></div>
-        </div>
-    </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class=col-md-4><h3>Hello</h3><img class="img-responsive" src="images/moog.PNG" alt="Moog"></div>
-            <div class=col-md-4><h3>Bootstrap</h3><img class="img-responsive" src="images/virus.jpg" alt="Virus"></div>
-            <div class=col-md-4><h3>World</h3><img class="img-responsive" src="images/korgsv1.jpg" alt="Korgsv1"></div>
-         </div>
-     </div>
+    <!-- Neue Container CSS Klasse hinzugefügt.
+    + Container musst du nur 1X aufmachen. Nicht nach jedem ROW. Außer der Container hat neue Bestimmungen,
+    wie hier im Beispiel. Ne MAX-WIDTH von 1200px im Vergleich zum Header. -->
 
-
-     <div class="container-fluid">
-        <div class="row">
-            <div class=col-md-4><h3>Hello</h3><img class="img-responsive" src="images/ob1.jpg" alt="Oberhausen"></div>
-            <div class=col-md-4><h3>Bootstrap</h3><img class="img-responsive" src="images/color1.jpg" alt="color1"></div>
-            <div class=col-md-4><h3>World</h3><img class="img-responsive" src="images/ob2.jpg" alt="Oberhausen"></div>
-         </div>
-     </div>
-
-
-
-     <div class="container-fluid">
-        <div class="row">
-            <div class=col-md-4><h3>Hello</h3><img class="img-responsive" src="images/muc1.jpg" alt="München"></div>
-            <div class=col-md-4><h3>Bootstrap</h3><img class="img-responsive" src="images/door.jpg" alt="Door"></div>
-            <div class=col-md-4><h3>World</h3><img class="img-responsive" src="images/muc2.jpg" alt="München"></div>
-         </div>
-     </div>
-
-<footer>
-<div class="container-fluid impressum">
-    <div class="row">
-        <div class="col-md-12">
-                <div class="container-fluid">
-                    <div class="row">
-
-                            <div class="col-md-4"><h2 class="text-left">&copy Bartosz</h2></div>
-                            <div class="col-md-4"><h2 class="text-center">Duisburg</h2></div>
-                            <div class="col-md-4"><h2 class="text-right">2016</h2></div>
-
-                    </div>
-                </div>
-
-         </div>
+    <div class="container-fluid container-main-content">
+      <div class="row">
+        <div class="col-md-4"><h1>hello bootstrap</h1></div>
+        <div class="col-md-4"><h1>hello world</h1></div>
+        <div class="col-md-4"><h1>hello synthesizers</h1></div>
       </div>
-</div>
-</footer>
+
+      <!-- Sowohl im HTML als auch CSS dem ROW und COL ne Zusatzklasse geben.
+      Dann kannst du die BOOTSTRAP werte überschreiben. -->
+
+      <div class="row row-col2">
+        <div class="col-md-4 col-col2"><img class="img-responsive" src="images/virus.jpg" alt="Virus"></div>
+        <div class="col-md-4 col-col2"><img class="img-responsive" src="images/virus.jpg" alt="Virus"></div>
+        <div class="col-md-4 col-col2"><img class="img-responsive" src="images/korgsv1.jpg" alt="Korgsv1"></div>
+       </div>
+       <!-- .row-col2 -->
+
+      <div class="row row-col3">
+        <div class="col-md-4 col-col3"><img class="img-responsive" src="images/ob1.jpg" alt="Oberhausen"></div>
+        <div class="col-md-4 col-col3"><img class="img-responsive" src="images/color1.jpg" alt="color1"></div>
+        <div class="col-md-4 col-col3"><img class="img-responsive" src="images/ob2.jpg" alt="Oberhausen"></div>
+       </div>
+       <!-- .row-col3 -->
+
+      <div class="row">
+        <div class="col-md-4"><h3>Hello</h3><img class="img-responsive" src="images/muc1.jpg" alt="München"></div>
+        <div class="col-md-4"><h3>Bootstrap</h3><img class="img-responsive" src="images/door.jpg" alt="Door"></div>
+        <div class="col-md-4"><h3>World</h3><img class="img-responsive" src="images/muc2.jpg" alt="München"></div>
+      </div>
+
+    </div><!-- .container -->
 
 
 
