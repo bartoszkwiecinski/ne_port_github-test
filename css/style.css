@@ -1,0 +1,47 @@
+* {
+    /*border: 1px solid black*/;
+    /*max-width: 1500px*/;
+    text-align: center;
+    display: inline-grid;
+    text-transform: uppercase;
+}
+.header {
+    background-color:  black;
+    color: white;
+}
+.background {
+    padding: 3px;
+}
+
+ul {
+    margin: 2px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+
+}
+
+li {
+    font-size: 20px;
+    margin: 2px;
+}
+
+
+h3 {
+    display: none;
+}
+
+
+img {
+    padding: 10px;
+}
+
+a {
+    color: black;
+}
+
+.impressum{
+    border:0.5px solid grey;
+    padding: 15px;
+}
+
