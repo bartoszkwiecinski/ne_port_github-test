@@ -1,0 +1,36 @@
+.image-wrapper {
+  line-height: 0;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.image-wrapper img {
+  height: auto;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+.image-wrapper-row {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+.col {
+  border: 1px dashed coral;
+  flex-basis: 15em;
+  flex-grow: 1;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+.col-image {
+  height: 200px;
+  max-height: 200px;
+  overflow: hidden;
+}
+.col-image img {
+  width: 100%;
+}
